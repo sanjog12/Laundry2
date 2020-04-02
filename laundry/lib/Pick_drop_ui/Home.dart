@@ -38,9 +38,6 @@ class _Homepage_p extends State<Homepage_p>{
 	    appBar: AppBar(
 		    title: Text("Pick_drop_ui"),
 		    backgroundColor: Colors.blueAccent,
-		    shape: RoundedRectangleBorder(
-			    borderRadius: BorderRadius.circular(20.0),
-		    ),
 	    ),
 	    
 	    body: SizedBox.expand(
