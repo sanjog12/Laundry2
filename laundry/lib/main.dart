@@ -9,6 +9,10 @@ class MyApp extends StatelessWidget{
     // TODO: implement build
     return MaterialApp(
 	    title: "Laundy -beta",
+	    theme: ThemeData(
+        canvasColor: Colors.transparent,
+        scaffoldBackgroundColor: Colors.white
+      ),
 	    home: Homepage_p(),
     );
   }
