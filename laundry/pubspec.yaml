@@ -14,7 +14,7 @@ description: A new Flutter application.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.0 <3.0.0"
 
 dependencies:
   bottom_navy_bar:
@@ -52,8 +52,9 @@ flutter:
     - images/user.png
     - distance.jpg
     - images/time.jpg
-    - images/coming-soon.png
-    - images/comingsoon2.jpg
+    - images/laundry image2.jpg
+    #- images/coming-soon.png
+    #- images/comingsoon2.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -66,17 +67,15 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
+  fonts:
+    - family: Allura
+      fonts:
+        - asset: fonts/Allura-Regular.ttf
+          weight: 200
+          style: italic
+    - family: Calligraffitti
+      fonts:
+        - asset: fonts/Calligraffitti-Regular.ttf
+          weight: 700
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
