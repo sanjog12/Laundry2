@@ -279,7 +279,51 @@ class home_1_p extends StatelessWidget{
 							),
 					),
 				),
-
+//				ListView(
+//					scrollDirection: Axis.horizontal,
+//					children: <Widget>[
+//						Container(
+//					height: 150,
+//					width: 100,
+//					decoration: BoxDecoration(
+//
+//						image: DecorationImage(
+//						image: AssetImage('images/shop1.jpg'),fit: BoxFit.cover
+//		),
+//						)
+//						),
+//						Container(
+//								height: 150,
+//								width: 100,
+//								decoration: BoxDecoration(
+//
+//									image: DecorationImage(
+//											image: AssetImage('images/shop2.jpg'),fit: BoxFit.cover
+//									),
+//								)
+//						),
+//						Container(
+//								height: 150,
+//								width: 100,
+//								decoration: BoxDecoration(
+//									color: Colors.white,
+//									image: DecorationImage(
+//											image: AssetImage('images/shop3.jpg'),fit: BoxFit.cover
+//									),
+//								)
+//						),
+//						Container(
+//								height: 150,
+//								width: 100,
+//								decoration: BoxDecoration(
+//									color: Colors.white,
+//									image: DecorationImage(
+//											image: AssetImage('images/shp4.jpg'),fit: BoxFit.cover
+//									),
+//								)
+//						),
+//					],
+//				),
 
 
 
